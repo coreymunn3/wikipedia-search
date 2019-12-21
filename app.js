@@ -44,7 +44,7 @@ function showResult(results) {
         <div class="card-header bg-secondary text-white">${result.title}</div>
         <div class="card-body">
           <p class="card-text">${result.snippet}</p>
-          <a href="http://en.wikipedia.org/?curid=${result.pageid}" class="btn btn-success" target="_blank" >View Article</a>
+          <a href="https://en.wikipedia.org/?curid=${result.pageid}" class="btn btn-success" target="_blank" >View Article</a>
         </div>
       </div>
     </div>
